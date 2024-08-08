@@ -1,11 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta name="robots" content="noarchive,noindex,nofollow">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<title>Microsoft Certified: Azure Fundamentals</title>
+	<meta name="robots" content="noarchive,noindex,nofollow">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<style>
+		#imgs {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			height: 800px;
+		}
+
+		#imga {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+		}
+	</style>
+	<title>Microsoft Certified: Azure Fundamentals</title>
 </head>
+
 <body style="background-color:white;">
-<img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="./certification/MicrosoftAzureFundamentals.png" alt="MicrosoftAzureFundamentals">
+	<script>
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+			document.write(`<img id="imga" src="./certification/MicrosoftAzureFundamentals.png" alt="MicrosoftAzureFundamentals">`);
+		} else {
+			document.write(`<iframe id="imgs" src="./certification/MicrosoftAzureFundamentals.pdf">`);
+		}
+	</script>
 </body>
+
 </html>
